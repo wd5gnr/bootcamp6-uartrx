@@ -1,0 +1,58 @@
+[*]
+[*] GTKWave Analyzer v3.3.86 (w)1999-2017 BSI
+[*] Sat Oct 27 23:26:02 2018
+[*]
+[dumpfile] "/home/alw/projects/hadio-fpga/boot5/dumpvars.vcd"
+[dumpfile_mtime] "Sat Oct 27 22:40:11 2018"
+[dumpfile_size] 1039433
+[savefile] "/home/alw/projects/hadio-fpga/boot5/rx.save.gtkw"
+[timestart] 385100000
+[size] 1938 1016
+[pos] 1889 -1
+*-25.000000 153790000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] tb.
+[sst_width] 310
+[signals_width] 210
+[sst_expanded] 1
+[sst_vpaned_height] 269
+@200
+-General
+@28
+tb.dut.clk
+tb.dut.baudclk
+tb.dut.reset
+@2024
+^1 /home/alw/projects/hadio-fpga/boot5/states.txt
+tb.dut.state[2:0]
+@200
+-Input
+@28
+tb.dut.rx_pin
+@200
+-Bits
+@22
+tb.dut.bitstream[15:0]
+tb.dut.bitsum[4:0]
+tb.dut.mark[3:0]
+tb.dut.point[3:0]
+@200
+-Byte
+@22
+tb.dut.mask[8:0]
+tb.dut.rbyte[8:0]
+@200
+-Outputs
+@22
+tb.dut.char[8:0]
+@28
+tb.dut.dataready
+tb.dut.framing
+@22
+tb.dut.data[7:0]
+@28
+tb.readdata
+tb.overrun
+@29
+tb.framing
+[pattern_trace] 1
+[pattern_trace] 0
